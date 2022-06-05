@@ -110,3 +110,10 @@ In this case, try changing it to the absolute path to this folder:
     - c:/Users/alexe/.google/credentials/:/.google/credentials:ro
     # -----------------------------------
 ```
+### How to run light-weight version i.e no-frills:
+```docker-compose build
+   docker-compose -f docker-compose.yaml up
+```
+### How to remove previous execution:
+```docker-compose down --volumes --remove-orphans
+```
