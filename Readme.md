@@ -111,9 +111,13 @@ In this case, try changing it to the absolute path to this folder:
     # -----------------------------------
 ```
 ### How to run light-weight version i.e no-frills:
-```docker-compose build
-   docker-compose -f docker-compose.yaml up
+```
+docker-compose build
+docker-compose -f docker-compose.yaml up
+
 ```
 ### How to remove previous execution:
-```docker-compose down --volumes --remove-orphans
+```
+docker-compose down --volumes --remove-orphans
+
 ```
